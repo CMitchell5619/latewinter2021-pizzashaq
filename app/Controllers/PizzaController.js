@@ -16,7 +16,7 @@ export default class PizzaController{
         ProxyState.on("pizzas", _draw)
         ProxyState.on("toppings", _draw)
     }
-
+<i class="fa fa-shopping-cart" aria-hidden="true"></i>
     create(event) {
     event.preventDefault()        
         let form = event.target
